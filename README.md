@@ -1,21 +1,51 @@
-# Jekyll template
-Beautiful responsive portfolio style template for designers and web developers
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kronik3r/daktilo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-[![Gitter](https://badges.gitter.im/nikrich/jekyll-slender-template.svg)](https://gitter.im/nikrich/jekyll-slender-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Twitter](https://img.shields.io/badge/Twitter-@slender_rich-blue.svg?style=flat)](https://twitter.com/slender_rich)
+# Daktilo
+Daktilo is a [Jekyll](jekyllrb.com) theme with a minimal design inspired from typewriters.
 
-![preview](http://i.imgur.com/9Nz6Ib9.jpg)
+# More info and Live preview
+[Click here](http://daktilo.github.io/) to see the theme in action.
 
-## Demo
-Find a demo [here](http://nikrich.github.io/jekyll-slender-template/#)
+# Features
+- Fully responsive
+- [Disqus](https://disqus.com/) integration for comments.
+- Google Analytics integration.
+- Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).
+- Support for categories.
+- Font-Awesome Icons.
+- Optimized for SEO.
+- Coolest [404 page ever](http://electrik-frog.com/daktilo/404.html).
 
-## Contributing
+# How to use it
+Start by cloning the repository, then check the `_config.yml` file and change it accordingly.
+Note that the `title` property is what will be displayed as logo.
 
-1. Clone the repo
-2. Checkout the dev branch ( Do not work directly on master )
-3. Use ```jekyll serve``` to run the project
-4. Make your changes and test
-5. Submit a pull request
+Finally execute `jekyll serve --watch` and head to [localhost:4000](http://127.0.0.1:4000) to see the result.
 
+# Using categories
+Categories are little bit tricky. Please make sure to do the following for each category:
 
-Inspired by [Balraj Chana](https://dribbble.com/shots/2380700-New-Portfolio-Site-Live)
+- Create a file within `categories` folder with the name of your category
+For example let's say that we have a category called `An Awesome Category` you will need to add an `an-awesome-category.html` file with this content:
+
+``` html
+---
+layout: category
+category: an-awesome-category
+permalink: /categories/an-awesome-category/
+---
+
+```
+
+- Create an entry inside `_data/categories.yml`
+
+``` html
+- slug: an-awesome-category
+  name: An Awesome Category
+```
+
+- Then you will see it in the footer in the `Explore` section.
+
+# License
+
+The contents of this repository is licensed under [The MIT License.](https://opensource.org/licenses/MIT)
