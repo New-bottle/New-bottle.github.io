@@ -4,11 +4,7 @@ comments: true
 date: 2016-08-07 21:54:20  
 layout: post  
 title: Helloworld!
-categories:
- - Study
- - Life
-tags:
- - Life
+categories: [life]
 ---
 # 我的新博客的第一篇博文
   `Helloworld!`
