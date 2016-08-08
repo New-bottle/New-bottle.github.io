@@ -5,6 +5,13 @@
         {% include meta_tags/sharing.html %}
 
         {% include externals/styling.html %}
+
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+        </script>
+        <script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
     </head>
 
     <body>
@@ -16,13 +23,6 @@
 
         {% include externals/scripting.html %}
         {% include externals/google_analytics.html %}
-        <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-        });
-        </script>
-        <script type="text/javascript"
-           src="http://freewind.me/blog/20130107/http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-        </script>
+
     </body>
 </html>
