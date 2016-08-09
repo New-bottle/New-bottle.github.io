@@ -6,13 +6,14 @@ description: >
   Google search results) and in your feed.xml site description.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cnblogs.com/tunix/" # the base hostname & protocol for your site
+url: "https://new-bottle.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: 闫鸿宇
   github: New-bottle
   qq: Tunix
   disqus: New-bottle
+  
 
 # google_analytics: 'UA-XXXXXXXX-X'
 
