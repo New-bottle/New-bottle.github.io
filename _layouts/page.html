@@ -1,8 +1,17 @@
 ---
 layout: default
 ---
-{% include page/title.html %}
+<article id="main">
 
-{{ content }}
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+  </header>
 
-{% include page/explore.html %}
+  <section class="wrapper style5">
+    <div class="inner">
+      {{ content }}
+    </div>
+  </section>
+
+</article>
