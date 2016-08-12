@@ -48,16 +48,16 @@ port:             	 4000
 highlighter:         rouge
 markdown:           kramdown
 kramdown:
-    extensions:
-     - Hard_wrap
-     - no_intra_emphasis
-     - strikethrough
-     - fenced_code_blocks
-     - autolink
-     - tables
-     - with_toc_data
-     - highlight
-     - footnotes
+#    extensions:
+#     - Hard_wrap
+#     - no_intra_emphasis
+#     - strikethrough
+#     - fenced_code_blocks
+#     - autolink
+#     - tables
+#     - with_toc_data
+#     - highlight
+#     - footnotes
     input:          GFM
 sass:
     style:          :compressed
