@@ -1,5 +1,5 @@
 ---
 layout: "writing_by_tag"
-tag: "Search"
+tag: "search"
 permalink: "/writing/tag/search/"
 ---

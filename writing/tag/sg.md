@@ -1,5 +1,5 @@
 ---
 layout: "writing_by_tag"
-tag: "SG"
+tag: "sg"
 permalink: "/writing/tag/sg/"
 ---

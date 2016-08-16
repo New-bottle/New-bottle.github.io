@@ -1,5 +1,5 @@
 ---
 layout: "writing_by_tag"
-tag: "Tree"
+tag: "tree"
 permalink: "/writing/tag/tree/"
 ---

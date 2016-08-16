@@ -1,5 +1,5 @@
 ---
 layout: "writing_by_tag"
-tag: "DP"
+tag: "dp"
 permalink: "/writing/tag/dp/"
 ---

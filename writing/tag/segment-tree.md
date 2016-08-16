@@ -1,5 +1,5 @@
 ---
 layout: "writing_by_tag"
-tag: "Segment-Tree"
+tag: "segment-tree"
 permalink: "/writing/tag/segment-tree/"
 ---

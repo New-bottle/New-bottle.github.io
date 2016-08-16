@@ -1,5 +1,5 @@
 ---
 layout: "writing_by_tag"
-tag: "Count"
+tag: "count"
 permalink: "/writing/tag/count/"
 ---

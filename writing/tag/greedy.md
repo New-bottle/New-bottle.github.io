@@ -1,5 +1,5 @@
 ---
 layout: "writing_by_tag"
-tag: "Greedy"
+tag: "greedy"
 permalink: "/writing/tag/greedy/"
 ---
