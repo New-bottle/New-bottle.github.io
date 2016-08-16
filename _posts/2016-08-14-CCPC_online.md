@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 2016中国大学生程序设计竞赛 - 网络选拔赛
-subtitle: Gauss, Greedy, Count, computational geometry, string
+subtitle: gauss, gready, count, computational-geometry, string
 author: 闫鸿宇
 date: 2016-08-14 21:27:32 +0800
 categories: [study]
-tag: [Gauss, Greedy, Count, computational geometry, string]
+tag: [gauss, gready, count, computational-geometry, string]
 comments: true
 ---
 
